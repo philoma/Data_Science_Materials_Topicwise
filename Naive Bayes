@@ -1,14 +1,18 @@
 Introduction to Naive Bayes for Classification:
 ------------------------------------------------
 This algorithm is called “Naive” because it makes a naive assumption that each feature is independent of other features which is not true in real life.
-As for the “Bayes” part, it refers to the statistician and philosopher, Thomas Bayes and the theorem named after him, Bayes’ theorem, which is the base for Naive Bayes Algorithm.
+As for the “Bayes” part, it refers to the statistician and philosopher, Thomas Bayes and the theorem named after him, Bayes’ theorem, which is the base for Naive Bayes
+Algorithm.
 
 What is Naive Bayes Algorithm?
-On Summarizing the above mentioned points Naive Bayes algorithm can be defined as a supervised classification algorithm which is based on Bayes theorem with an assumption of independence among features.
+On Summarizing the above mentioned points Naive Bayes algorithm can be defined as a supervised classification algorithm which is based on Bayes theorem with an 
+assumption
+of independence among features.
 
 A Brief look on Bayes Theorem :
 Bayes Theorem helps us to find the probability of a hypothesis given our prior knowledge.
-As per wikipedia,In probability theory and statistics, Bayes’ theorem (alternatively Bayes’ law or Bayes’ rule, also written as Bayes’s theorem) describes the probability of an event, based on prior knowledge of conditions that might be related to the event..
+As per wikipedia,In probability theory and statistics, Bayes’ theorem (alternatively Bayes’ law or Bayes’ rule, also written as Bayes’s theorem) describes the 
+probability of an event, based on prior knowledge of conditions that might be related to the event..
 P(A/B)=(P(B/A)*P(A))/P(B)
 Where,
 1. P(A|B) is the probability of hypothesis A given the data B. This is called the posterior probability.
@@ -23,7 +27,8 @@ Pros :
 2. It can also be trained on small dataset.
 
 Cons :
-1. It has a ‘Zero conditional probability Problem’, for features having zero frequency the total probability also becomes zero.There are several sample correction techniques to fix this problem such as “Laplacian Correction.”
+1. It has a ‘Zero conditional probability Problem’, for features having zero frequency the total probability also becomes zero.There are several sample correction 
+techniques to fix this problem such as “Laplacian Correction.”
 2. Another disadvantage is the very strong assumption of independence class features that it makes. It is near to impossible to find such data sets in real life.
 
 Applications of Naive Bayes Algorithm :
